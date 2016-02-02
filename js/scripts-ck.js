@@ -1,0 +1,1 @@
+$(document).foundation();jQuery(document).ready(function(e){var t=e(window).height(),n=e(window).width(),r=e(".header-cards").height(),i=t/2-r;if(n>=640){e(".header").height(t);e(".header").css("padding-top",i)}e(".gallery").slick({slide:"img",autoplay:!0,speed:2e3,pauseOnHover:!0,fade:!0})});
