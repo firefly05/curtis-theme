@@ -80,8 +80,9 @@
 
             
           </div><!-- header cards -->
-
+          <div class="cta small-pull-2">
             <a href="#content" class="more-content centered hide-for-small">more</a>
+          </div>
           
         </div><!-- base-card header -->
     </div>
