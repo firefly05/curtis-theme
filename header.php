@@ -12,7 +12,7 @@
       
   <div class="header clearfix">
     
-      <div class="medium-3 columns branding-column">
+      <div class="medium-3 columns branding-column flush">
 
         <div class="card">
           <div class="card-inner">
@@ -32,7 +32,7 @@
       </div><!-- card -->
         
       </div>
-      <div class="medium-9 columns portfolio-column">
+      <div class="medium-9 columns portfolio-column flush">
 
           <div class="header-cards clearfix">
               <?php 
@@ -47,24 +47,7 @@
               // set it to the appropriate size
               $sized_thumb = wp_get_attachment_image_src( get_post_thumbnail_id(get_the_ID()), 'five');
 
-                // decide the width of columns
-                switch ($count) {
-                  case '1':
-                    $cols = '4';
-                    break;
-
-                  case '2':
-                    $cols='3';
-                    break;
-
-                  case '3':
-                    $cols='2';
-                    break;
                 
-                  default:
-                    $cols='2';
-                    break;
-                }
 
                 // get category name from custom function
              $cat = get_the_category(get_the_ID() );
@@ -81,7 +64,7 @@
 
                 ?>
 
-                  <div class="medium-<?php echo $cols; ?> columns card <?php echo $category; ?>">
+                  <div class="medium-4 columns card <?php echo $category; ?>">
                     <div class="card-inner">
                       <div class="image" style="background: url(<?php echo $sized_thumb[0]; ?>)"> </div>
                       <?php //the_post_thumbnail('header-cards' ); ?>
