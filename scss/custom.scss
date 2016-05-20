@@ -240,3 +240,12 @@ h1.brand{
 
  } /* max-width 640px, mobile-only styles, use when QAing mobile issues */
 
+/**
+ *
+ * Utility classes
+ *
+ */
+.flush{
+  padding-left:0;
+  padding-right:0;
+}
