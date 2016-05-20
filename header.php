@@ -14,17 +14,13 @@
     
       <div class="medium-3 columns branding-column flush">
 
-        <div class="card">
-          <div class="card-inner">
+        <div class="card brand-card-wrap">
+          <div class="card-inner brand-card-inner">
             
             <div class="brand-card">
               <h1 class="brand"><span class="curtis">curtis</span> <span class="peters">Peters</span></h1>
               <h2>Toronto-based WordPress developer</h2>
               <p>When I'm not serving up custom WordPress themes and plugins for business owners, I'm keeping sharp with these personal projects.
-              </p>
-              <p>
-                <br>
-                <a href="#" data-reveal-id="contactForm">Contact me</a>
               </p>
             </div>
           </div><!-- card inner -->
