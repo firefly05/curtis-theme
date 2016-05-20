@@ -202,3 +202,10 @@ h1.brand {
   .card {
     padding: 0.2rem 0; } }
 /* max-width 640px, mobile-only styles, use when QAing mobile issues */
+
+
+
+.flush{
+  padding-left:0;
+  padding-right:0;
+}
