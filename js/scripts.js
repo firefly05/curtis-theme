@@ -31,4 +31,19 @@ jQuery(document).ready(function ($){
         fade:true
     });
 
+
+    /**
+     *
+     * Show and position portfolio details
+     *
+     * - shows the portfolio detials fo rthe clicked item
+     *
+     */
+    $('.show-details').click(function(e){
+        e.preventDefault();
+        var details = $(this).siblings('.portfolio-item-details');
+        console.log(details);
+    });
+
+
 });

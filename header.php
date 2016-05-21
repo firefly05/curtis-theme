@@ -65,6 +65,7 @@
                       <div class="image" style="background: url(<?php echo $sized_thumb[0]; ?>)"> </div>
                       <?php //the_post_thumbnail('header-cards' ); ?>
                       <div class="summary-card">
+                        <a href="#" class="show-details">Details</a>
                         <h2 class="summary-title"><a href="<?php echo $link ?>" <?php echo $target; ?>><?php the_title(); ?></a></h2>
                         <?php get_template_part( 'content', 'details' ); ?>
                       </div>
