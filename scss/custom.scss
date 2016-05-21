@@ -273,3 +273,12 @@ h1.brand{
     left: 0;
     top:$card-image-height;
 }
+.holder {
+   overflow: hidden;
+   clear:    both;
+}
+.holder .even-height {
+   float: left;
+   padding-bottom: 100000px;
+   margin-bottom:  -100000px;
+}
