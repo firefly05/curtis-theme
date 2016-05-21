@@ -167,7 +167,12 @@ h1.brand{
         overflow:visible;
     }
 }   
-
+.show-details{
+    position: absolute;
+    bottom:0;
+    left:0;
+    z-index:40;
+}
 .image{
     width:100%;
     height:$card-image-height;
@@ -260,7 +265,7 @@ h1.brand{
   padding-right:0;
 }
 
-.show-details{
+.the-details{
     position: absolute;
     left: 0;
 }
