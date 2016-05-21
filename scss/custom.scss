@@ -173,6 +173,9 @@ h1.brand{
     left:0;
     z-index:40;
 }
+.image-space{
+    height:100%;
+}
 .image{
     width:100%;
     height:$card-image-height;
@@ -268,4 +271,5 @@ h1.brand{
 .the-details{
     position: absolute;
     left: 0;
+    top:$card-image-height;
 }

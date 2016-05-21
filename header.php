@@ -42,6 +42,7 @@
               //prepare thumbnail image
               // set it to the appropriate size
               $sized_thumb = wp_get_attachment_image_src( get_post_thumbnail_id(get_the_ID()), 'five');
+              $full_image = wp_get_attachment_image_src( get_post_thumbnail_id(get_the_ID()), 'slideshow_large');
 
                 
 
@@ -69,8 +70,10 @@
                       </div>
                     </div><!-- card inner -->
                     <a href="#" class="show-details">Details</a>
-                    <?php get_template_part( 'content', 'details' ); ?>
                   </div><!-- card -->
+
+
+                    <?php include(locate_template('content-details.php')); ?>
             <?php
               endforeach;
               wp_reset_postdata();
