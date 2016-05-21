@@ -66,6 +66,7 @@
                       <?php //the_post_thumbnail('header-cards' ); ?>
                       <div class="summary-card">
                         <h2 class="summary-title"><a href="<?php echo $link ?>" <?php echo $target; ?>><?php the_title(); ?></a></h2>
+                        <?php get_template_part( 'content', 'details' ); ?>
                       </div>
                     </div><!-- card inner -->
                   </div><!-- card -->
