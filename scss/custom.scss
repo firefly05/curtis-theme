@@ -173,8 +173,27 @@ h1.brand{
     left:0;
     z-index:40;
 }
+.portfolio-details-column{
+    background-color: $theme-blue;
+}
 .image-space{
     height:100%;
+    &:after{
+        content:"";
+        background-color: transparent;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        left: 0;
+        top: 0;
+        z-index: 0;
+        background-image: -webkit-linear-gradient( left, $theme-blue, rgba($theme-blue,0));
+        background-image:    -moz-linear-gradient( left, $theme-blue, rgba($theme-blue,0));
+        background-image:     -ms-linear-gradient( left, $theme-blue, rgba($theme-blue,0));
+        background-image:      -o-linear-gradient( left, $theme-blue, rgba($theme-blue,0));
+        background-image:         linear-gradient( left, $theme-blue, rgba($theme-blue,0));
+    
+    }
 }
 .image{
     width:100%;
