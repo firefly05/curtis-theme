@@ -226,6 +226,10 @@ h2, p, ul, li {
 }
 .portfolio-details-column{
     background-color: $theme-blue;
+    .more-content{
+        margin:0;
+
+    }
 }
 .image-space{
     height:100%;
