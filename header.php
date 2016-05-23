@@ -20,7 +20,7 @@
             <div class="brand-card">
               <h1 class="brand"><span class="curtis">curtis</span> <span class="peters">Peters</span></h1>
               <h2>Toronto-based WordPress developer</h2>
-              <p>When I'm not serving up custom WordPress themes and plugins for business owners, I'm keeping sharp with these personal projects.
+              <!-- <p>When I'm not serving up custom WordPress themes and plugins for business owners, I'm keeping sharp with these personal projects. -->
               </p>
             </div>
           </div><!-- card inner -->
