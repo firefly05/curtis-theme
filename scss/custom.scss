@@ -171,8 +171,12 @@ h1.brand{
 .show-details{
     position: absolute;
     bottom:0;
-    left:0;
+    right:0;
     z-index:40;
+    &:after{
+        content: "\f348";
+        font-family: "dashicons";
+    }
 }
 .portfolio-details-column{
     background-color: $theme-blue;
@@ -307,4 +311,13 @@ h1.brand{
 }
 .show-details-window{
     height:auto;
+}
+.hide-text 
+{
+    position:absolute;
+    left:-10000px;
+    top:auto;
+    width:1px;
+    height:1px;
+    overflow:hidden;
 }
