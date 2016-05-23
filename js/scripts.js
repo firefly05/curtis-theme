@@ -4,6 +4,7 @@ $(document).foundation();
 jQuery(document).ready(function ($){
 
         
+        var wwidth = $(window).width();
     /**
     *
     * automatically size height of header to height of window
@@ -11,16 +12,14 @@ jQuery(document).ready(function ($){
     **/
     function match_window_height(){
         var wheight = $(window).height();
-        var wwidth = $(window).width();
         var cardHeight = $('.header-cards').height();
         var dtop = (wheight/2) - (cardHeight);
-        if(wwidth >= 640 ) {// if it is a large screen
             $('.header').height(wheight); //make header full-screen
             $('.header').css('padding-top',dtop);
 
             // align footer to bottom of screen
-            $('.footer').addClass('align-screen-bottom');
-        }
+            $('.footer').css('bottom','0');
+            console.log(wheight);
     }
     /**
      *
@@ -28,9 +27,15 @@ jQuery(document).ready(function ($){
      * and when the window is resized
      *
      */
+        if(wwidth >= 640 ) {// if it is a large screen
+            match_window_height();
+        }
     
-    match_window_height();
-    $(window).resize(match_window_height);
+    $(window).resize(function(){
+        if(wwidth >= 640 ) {// if it is a large screen
+            match_window_height();
+        }
+    });
 
     /**
     *

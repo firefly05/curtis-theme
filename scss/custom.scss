@@ -273,13 +273,16 @@ h1.brand{
     margin:0 auto;
 }
 .footer{
-    
+    position: absolute;
     .copyright{
         display: block;
         margin: 1rem auto;
         font-size:0.7rem;
         z-index: 20;
         position: relative;
+    }
+    @media only screen and (max-width: 40em){
+        position: static;
     }
 }
 .toolbox-logo-wrap{
@@ -357,7 +360,3 @@ h1.brand{
     overflow:hidden;
 }
 
-.align-screen-bottom{
-    position: absolute;
-    bottom: 0;
-}
