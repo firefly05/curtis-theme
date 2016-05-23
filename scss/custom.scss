@@ -115,7 +115,7 @@ h1.brand{
 .card{
     color:#fff;
     overflow: hidden;
-    padding:0.1rem;
+    padding:0.1rem 0 0.1rem 0.2rem;
     h2{
         color:#fff;
         font-size: 1.2rem;
@@ -137,7 +137,6 @@ h1.brand{
     &.brand-card-wrap{
         overflow: visible;
     }
-
 }
 .photography {
 
