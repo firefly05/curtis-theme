@@ -148,7 +148,8 @@ h1.brand{
 .web-development {
 
     &:after{
-        content:"www";
+        font-family: 'dashicons';
+        content: "\f319";
         @include card-icon();
     }
 }

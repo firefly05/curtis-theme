@@ -12,7 +12,7 @@ add_action('wp_enqueue_scripts', function() {
     * CSS Stylesheets
     *
     **/
-    
+    wp_enqueue_style( 'dashicons' );
     wp_register_style( 'foundation-css', get_template_directory_uri() . '/css/foundation.css' );
     wp_register_style( 'custom-css', get_template_directory_uri() . '/css/custom.css', array('foundation-css'), '20120208', 'all' );
       
@@ -116,5 +116,7 @@ add_action( 'wp_head', 'ilc_favicon');
 function ilc_favicon(){
   echo '<link href="' . get_stylesheet_directory_uri() . '/img/favicon.ico" rel="shortcut icon" />';
 }
+
+
 
  ?>
