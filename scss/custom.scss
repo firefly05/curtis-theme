@@ -283,7 +283,7 @@ h1.brand{
 }
 .toolbox-logo-wrap{
     display: inline-block;
-    height: 50px;
+    height: 25px;
     padding-right: 50px;
     img{
         height: 100%;
@@ -294,6 +294,9 @@ h1.brand{
         &:hover{
             opacity: 1;
         }
+    }
+    &.bump-height{
+        height: 50px;
     }
 }
 
