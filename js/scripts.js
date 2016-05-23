@@ -78,6 +78,7 @@ jQuery(document).ready(function ($){
     $('.close').click(function(e){
         e.preventDefault();
         $('.the-details').addClass('hide');
+        $('.card').removeClass('active');
     });
 
 
