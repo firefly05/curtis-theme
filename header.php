@@ -94,14 +94,14 @@
            <div class="small-12 columns footer clearfix">
             <div class="small-12 columns toolbox">
               <div class="toolbox-inner">
-                <span class="toolbox-logo-wrap"><a href="#" target="_blank"><img class="toolbox-logo" src="<?php echo get_stylesheet_directory_uri(); ?>/img/toolboxlogos/bit-bucket.png" /></a></span>
-                <span class="toolbox-logo-wrap bump-height"><a href="#" target="_blank"><img class="toolbox-logo" src="<?php echo get_stylesheet_directory_uri(); ?>/img/toolboxlogos/code-kit.png" /></a></span>
-                <span class="toolbox-logo-wrap bump-height"><a href="#" target="_blank"><img class="toolbox-logo" src="<?php echo get_stylesheet_directory_uri(); ?>/img/toolboxlogos/foundation-zurb.png" /></a></span>
-                <span class="toolbox-logo-wrap"><a href="#" target="_blank"><img class="toolbox-logo" src="<?php echo get_stylesheet_directory_uri(); ?>/img/toolboxlogos/git.png" /></a></span>
-                <span class="toolbox-logo-wrap"><a href="#" target="_blank"><img class="toolbox-logo" src="<?php echo get_stylesheet_directory_uri(); ?>/img/toolboxlogos/mamp.png" /></a></span>
-                <span class="toolbox-logo-wrap"><a href="#" target="_blank"><img class="toolbox-logo" src="<?php echo get_stylesheet_directory_uri(); ?>/img/toolboxlogos/sass.png" /></a></span>
-                <span class="toolbox-logo-wrap"><a href="#" target="_blank"><img class="toolbox-logo" src="<?php echo get_stylesheet_directory_uri(); ?>/img/toolboxlogos/wp-cli.png" /></a></span>
-                <span class="toolbox-logo-wrap"><a href="#" target="_blank">PHPloy</a></span>
+                <span class="toolbox-logo-wrap"><a href="https://bitbucket.org/" target="_blank"><img class="toolbox-logo" src="<?php echo get_stylesheet_directory_uri(); ?>/img/toolboxlogos/bit-bucket.png" /></a></span>
+                <span class="toolbox-logo-wrap bump-height"><a href="https://incident57.com/codekit/" target="_blank"><img class="toolbox-logo" src="<?php echo get_stylesheet_directory_uri(); ?>/img/toolboxlogos/code-kit.png" /></a></span>
+                <span class="toolbox-logo-wrap bump-height"><a href="http://foundation.zurb.com/" target="_blank"><img class="toolbox-logo" src="<?php echo get_stylesheet_directory_uri(); ?>/img/toolboxlogos/foundation-zurb.png" /></a></span>
+                <span class="toolbox-logo-wrap"><a href="https://github.com/" target="_blank"><img class="toolbox-logo" src="<?php echo get_stylesheet_directory_uri(); ?>/img/toolboxlogos/git.png" /></a></span>
+                <span class="toolbox-logo-wrap"><a href="https://www.mamp.info/en/" target="_blank"><img class="toolbox-logo" src="<?php echo get_stylesheet_directory_uri(); ?>/img/toolboxlogos/mamp.png" /></a></span>
+                <span class="toolbox-logo-wrap"><a href="http://sass-lang.com/" target="_blank"><img class="toolbox-logo" src="<?php echo get_stylesheet_directory_uri(); ?>/img/toolboxlogos/sass.png" /></a></span>
+                <span class="toolbox-logo-wrap"><a href="https://wp-cli.org/" target="_blank"><img class="toolbox-logo" src="<?php echo get_stylesheet_directory_uri(); ?>/img/toolboxlogos/wp-cli.png" /></a></span>
+                <span class="toolbox-logo-wrap"><a href="https://github.com/banago/PHPloy" target="_blank">PHPloy</a></span>
               </div>
             </div>
           </div>
