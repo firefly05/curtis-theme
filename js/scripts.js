@@ -16,6 +16,9 @@ jQuery(document).ready(function ($){
     if(wwidth >= 640 ) {// if it is a large screen
         $('.header').height(wheight); //make header full-screen
         $('.header').css('padding-top',dtop);
+
+        // align footer to bottom of screen
+        $('.footer').addClass('align-screen-bottom');
     }
 
     /**
