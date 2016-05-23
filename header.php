@@ -61,7 +61,7 @@
 
                 ?>
 
-                  <div class="medium-4 columns card <?php echo $category; ?>">
+                  <div class="medium-4 columns card">
                     <div class="card-inner">
                       <div class="image" style="background: url(<?php echo $sized_thumb[0]; ?>)"> </div>
                       <?php //the_post_thumbnail('header-cards' ); ?>
@@ -69,7 +69,10 @@
                         <h2 class="summary-title"><a href="<?php echo $link ?>" <?php echo $target; ?>><?php the_title(); ?></a></h2>
                       </div>
                     </div><!-- card inner -->
-                    <a href="#" class="show-details" data-window-id=<?php echo $post->ID ?>><span class="hide-text">Details</span></a>
+                      <div class="card-button-row">
+                        <a href="<?php echo $link ?>" <?php echo $target; ?> class="card-link <?php echo $category; ?>"><span class="hide-text">Visit Page</span></a>
+                        <a href="#" class="show-details card-link " data-window-id=<?php echo $post->ID ?>><span class="hide-text">Details</span></a>
+                      </div>
                   </div><!-- card -->
                     <?php include(locate_template('content-details.php')); ?>
 
