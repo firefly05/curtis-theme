@@ -85,7 +85,7 @@
             
           </div><!-- header cards -->
           <div class="cta small-pull-2">
-            <a href="#content" class="more-content centered hide-for-small">more</a>
+            <a href="#content" class="more-content centered">Contact Me</a>
           </div>
           
         </div><!-- base-card header -->
