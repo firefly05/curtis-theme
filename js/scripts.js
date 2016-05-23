@@ -41,8 +41,8 @@ jQuery(document).ready(function ($){
      */
     $('.show-details').click(function(e){
         e.preventDefault();
-        var details = $(this).siblings('.portfolio-item-details');
-        console.log(details);
+        var windowID = $(this).data('window-id');
+        $('.the-details[data-window="' + windowID +'"]').removeClass('hide').addClass('show-details-window');
     });
 
 

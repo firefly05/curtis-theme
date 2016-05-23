@@ -292,6 +292,7 @@ h1.brand{
     left: 0;
     top:$card-image-height;
     padding-top: 20px;
+    height: 1px;
 }
 .holder {
    overflow: hidden;
@@ -301,4 +302,7 @@ h1.brand{
    float: left;
    padding-bottom: 100000px;
    margin-bottom:  -100000px;
+}
+.show-details-window{
+    height:auto;
 }
