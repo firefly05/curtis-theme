@@ -70,7 +70,7 @@
                       </div>
                     </div><!-- card inner -->
                       <div class="card-button-row">
-                        <a href="<?php echo $link ?>" <?php echo $target; ?> class="card-link <?php echo $category; ?>"><span class="hide-text">Visit Page</span></a>
+                        <!-- <a href="<?php echo $link ?>" <?php echo $target; ?> class="card-link <?php echo $category; ?>"><span class="hide-text">Visit Page</span></a> -->
                         <a href="#" class="show-details card-link hide-for-small" data-window-id=<?php echo $post->ID ?>><span class="hide-text">Details</span></a>
                       </div>
                   </div><!-- card -->
