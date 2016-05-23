@@ -92,8 +92,17 @@
 
         <!-- footer -->
            <div class="small-12 columns footer clearfix">
+            <div class="small-12 columns toolbox">
+              <span class="toolbox-logo-wrap"><a href="#" target="_blank"><img class="toolbox-logo" src="<?php echo get_stylesheet_directory_uri(); ?>/img/toolboxlogos/bit-bucket.png" /></a></span>
+              <span class="toolbox-logo-wrap"><a href="#" target="_blank"><img class="toolbox-logo" src="<?php echo get_stylesheet_directory_uri(); ?>/img/toolboxlogos/code-kit.png" /></a></span>
+              <span class="toolbox-logo-wrap"><a href="#" target="_blank"><img class="toolbox-logo" src="<?php echo get_stylesheet_directory_uri(); ?>/img/toolboxlogos/foundation-zurb.png" /></a></span>
+              <span class="toolbox-logo-wrap"><a href="#" target="_blank"><img class="toolbox-logo" src="<?php echo get_stylesheet_directory_uri(); ?>/img/toolboxlogos/git.png" /></a></span>
+              <span class="toolbox-logo-wrap"><a href="#" target="_blank"><img class="toolbox-logo" src="<?php echo get_stylesheet_directory_uri(); ?>/img/toolboxlogos/mamp.png" /></a></span>
+              <span class="toolbox-logo-wrap"><a href="#" target="_blank"><img class="toolbox-logo" src="<?php echo get_stylesheet_directory_uri(); ?>/img/toolboxlogos/sass.png" /></a></span>
+              <span class="toolbox-logo-wrap"><a href="#" target="_blank"><img class="toolbox-logo" src="<?php echo get_stylesheet_directory_uri(); ?>/img/toolboxlogos/wp-cli.png" /></a></span>
+            </div>
             <div class="small-2 copyright">Copright &copy;2014 Curtis Peters</div>
           </div>
       <!-- end footer -->
-      
+
     </div>

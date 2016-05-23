@@ -281,6 +281,21 @@ h1.brand{
         position: relative;
     }
 }
+.toolbox-logo-wrap{
+    display: inline-block;
+    height: 50px;
+    padding-right: 50px;
+    img{
+        height: 100%;
+    }
+    a{
+        opacity: 0.5;
+        transition: opacity 1s;
+        &:hover{
+            opacity: 1;
+        }
+    }
+}
 
 
 // Small screens
