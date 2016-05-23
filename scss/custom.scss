@@ -299,7 +299,11 @@ h1.brand{
         height: 50px;
     }
 }
-
+.toolbox-inner{
+    text-align: center;
+    margin: 0 auto;
+    padding-bottom: 10px;
+}
 
 // Small screens
 @media only screen { } /* Define mobile styles */
