@@ -69,4 +69,16 @@ jQuery(document).ready(function ($){
     });
 
 
+    /**
+     *
+     * Close all details windows on click
+     *
+     */
+    
+    $('.close').click(function(e){
+        e.preventDefault();
+        $('.the-details').addClass('hide');
+    });
+
+
 });
