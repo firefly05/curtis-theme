@@ -4,6 +4,7 @@
         <?php the_content( ); ?>
         <div class="cta ">
             <a href="mailto:curtis005@gmail.com" class="more-content centered"><span>Contact Me</span></a>
+            <a href="#" class="close">Close</a>
           </div>
     </div>
     <div class="small-6 columns even-height image-space" style="background: url(<?php echo $full_image[0]; ?>)">

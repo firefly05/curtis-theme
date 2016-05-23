@@ -229,6 +229,19 @@ h2, p, ul, li {
     background-color: $theme-blue;
     .more-content{
         margin:0;
+    }
+    a{
+        display: inline-block;
+    }
+    .close{
+        color: #fff;
+        font-weight: 100;
+        text-transform: uppercase;
+        padding-left: 10px;
+
+        &:after{
+            display: none;
+        }
 
     }
 }
