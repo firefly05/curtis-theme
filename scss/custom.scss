@@ -295,6 +295,7 @@ h1.brand{
     a{
         opacity: 0.5;
         transition: opacity 1s;
+        color: #fff;
         &:hover{
             opacity: 1;
         }

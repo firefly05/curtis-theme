@@ -101,6 +101,7 @@
                 <span class="toolbox-logo-wrap"><a href="#" target="_blank"><img class="toolbox-logo" src="<?php echo get_stylesheet_directory_uri(); ?>/img/toolboxlogos/mamp.png" /></a></span>
                 <span class="toolbox-logo-wrap"><a href="#" target="_blank"><img class="toolbox-logo" src="<?php echo get_stylesheet_directory_uri(); ?>/img/toolboxlogos/sass.png" /></a></span>
                 <span class="toolbox-logo-wrap"><a href="#" target="_blank"><img class="toolbox-logo" src="<?php echo get_stylesheet_directory_uri(); ?>/img/toolboxlogos/wp-cli.png" /></a></span>
+                <span class="toolbox-logo-wrap"><a href="#" target="_blank">PHPloy</a></span>
               </div>
             </div>
           </div>
