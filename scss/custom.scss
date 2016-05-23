@@ -147,7 +147,8 @@ h2, p, ul, li {
     a{
         color:#fff;
         &:hover{
-            text-decoration: underline;
+            text-decoration: none;
+            opacity: 1;
         }
     }
     &:hover .summary-card{
@@ -205,9 +206,12 @@ h2, p, ul, li {
     margin-right: 5px;
     &:after{
         color: #fff;
+        opacity: 0.5;
+        transition: opacity 1s;
     }
-    &:hover{
+    &:hover:after{
         text-decoration: none;
+        opacity: 1;
     }
     // @include card-icon();
 }
