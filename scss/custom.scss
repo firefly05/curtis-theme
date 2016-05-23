@@ -273,14 +273,7 @@ h1.brand{
     margin:0 auto;
 }
 .footer{
-    background: url('../img/saturday010.jpg') no-repeat bottom;
-    color:#fff;
-    height:3rem;
-    margin-top: 0.2rem;
-    &:before{
 
-        @include gradient-overlay();
-    }
     .copyright{
         display: block;
         margin: 1rem auto;

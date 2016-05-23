@@ -89,4 +89,11 @@
           </div>
           
         </div><!-- base-card header -->
+
+        <!-- footer -->
+           <div class="small-12 columns footer clearfix">
+            <div class="small-2 copyright">Copright &copy;2014 Curtis Peters</div>
+          </div>
+      <!-- end footer -->
+      
     </div>

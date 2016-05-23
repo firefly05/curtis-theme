@@ -1,7 +1,5 @@
 
-  <div class="small-12 columns footer clearfix">
-    <div class="small-2 copyright">Copright &copy;2014 Curtis Peters</div>
-  </div>
+ 
 
 <div id="contactForm" class="reveal-modal" data-reveal>
   <h2>Send me a message</h2>
