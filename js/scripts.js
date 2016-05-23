@@ -19,7 +19,6 @@ jQuery(document).ready(function ($){
 
             // align footer to bottom of screen
             $('.footer').css('bottom','0');
-            console.log(wheight);
     }
     /**
      *
@@ -62,7 +61,7 @@ jQuery(document).ready(function ($){
         e.preventDefault();
         var windowID = $(this).data('window-id');
         $('.the-details').addClass('hide');
-        $('.the-details[data-window="' + windowID +'"]').removeClass('hide').css('height', 'auto');
+        $('.the-details[data-window="' + windowID +'"]').removeClass('hide').css('height', '300px');
     });
 
 
