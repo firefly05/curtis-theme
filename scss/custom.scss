@@ -96,7 +96,6 @@ h2, p {
     position: relative;
 }
 .cta{
-   
     a:after{
         content: "\f465";
         font-family: "dashicons";
@@ -107,14 +106,15 @@ h2, p {
     }
 }
 .more-content{
+    transition: color 1s; 
     margin: 5rem auto;
     display: block;
     width:10rem;
-    height:3rem;
-    padding:0 0.8rem;
+    // height:3rem;
+    padding:0.5rem 0.8rem;
     text-align: center;
     text-transform: uppercase;
-    line-height: 2.7rem;
+    // line-height: 2.6rem;
     color:#fff;
     z-index:9;
     position: relative;
@@ -129,6 +129,10 @@ h2, p {
     &:hover{
         color:$theme-blue;
         background-color: rgba(#fff,0.9);
+    }
+    span{
+        display:inline-block;
+        vertical-align: middle;
     }
 }
 .card{

@@ -85,7 +85,7 @@
             
           </div><!-- header cards -->
           <div class="cta small-pull-2">
-            <a href="mailto:curtis005@gmail.com" class="more-content centered">Contact Me</a>
+            <a href="mailto:curtis005@gmail.com" class="more-content centered"><span>Contact Me</span></a>
           </div>
           
         </div><!-- base-card header -->
