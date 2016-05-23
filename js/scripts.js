@@ -61,7 +61,7 @@ jQuery(document).ready(function ($){
         e.preventDefault();
         var windowID = $(this).data('window-id');
         $('.the-details').addClass('hide');
-        $('.the-details[data-window="' + windowID +'"]').removeClass('hide').css('height', '300px');
+        $('.the-details[data-window="' + windowID +'"]').removeClass('hide').css('height', '320px');
     });
 
 
