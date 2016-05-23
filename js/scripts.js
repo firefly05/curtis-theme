@@ -42,7 +42,8 @@ jQuery(document).ready(function ($){
     $('.show-details').click(function(e){
         e.preventDefault();
         var windowID = $(this).data('window-id');
-        $('.the-details[data-window="' + windowID +'"]').removeClass('hide').addClass('show-details-window');
+        $('.the-details').addClass('hide');
+        $('.the-details[data-window="' + windowID +'"]').removeClass('hide').css('height', 'auto');
     });
 
 

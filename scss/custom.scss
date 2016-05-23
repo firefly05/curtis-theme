@@ -293,6 +293,7 @@ h1.brand{
     top:$card-image-height;
     padding-top: 20px;
     height: 1px;
+    transition: height 1s;
 }
 .holder {
    overflow: hidden;
