@@ -61,7 +61,7 @@
 
                 ?>
 
-                  <div class="medium-4 columns card">
+                  <div class="medium-4 columns card" data-card-id=<?php echo $post->ID ?>>
                     <div class="card-inner">
                       <div class="image" style="background: url(<?php echo $sized_thumb[0]; ?>)"> </div>
                       <?php //the_post_thumbnail('header-cards' ); ?>

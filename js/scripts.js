@@ -60,8 +60,12 @@ jQuery(document).ready(function ($){
     $('.show-details').click(function(e){
         e.preventDefault();
         var windowID = $(this).data('window-id');
+        //show relevant details window
         $('.the-details').addClass('hide');
         $('.the-details[data-window="' + windowID +'"]').removeClass('hide').css('height', '320px');
+        //highlight relevant card
+        $('.card').removeClass('active');
+        $('.card[data-card-id="' + windowID +'"]').addClass('active');
     });
 
 

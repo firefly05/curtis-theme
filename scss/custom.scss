@@ -151,7 +151,8 @@ h2, p, ul, li {
             opacity: 1;
         }
     }
-    &:hover .summary-card{
+    &:hover .summary-card,
+    &.active .summary-card{
         opacity: 1;
         background-color: $card-hover-color;
         h1, h2, p{
