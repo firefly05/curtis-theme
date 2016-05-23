@@ -8,6 +8,7 @@ $theme-blue: #144c77;
 $dark-blue: #144c77;
 $light-blue: #5893cc;
 $faded-blue: #aab3c9;
+$padding: 5px;
 
 $brand-card-height: 230px;
 $card-image-height: 150px;
@@ -193,6 +194,8 @@ h1.brand{
     width: 100%;
     text-align: right;
     z-index: 20;
+    padding-right: $padding;
+    padding-bottom: 1px;
 }
 .portfolio-details-column{
     background-color: $theme-blue;
