@@ -4,6 +4,8 @@
 *
 **/
 
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,100);
+
 $theme-blue: #144c77;
 $dark-blue: #144c77;
 $light-blue: #5893cc;
@@ -63,6 +65,10 @@ h1.brand{
     margin-top: 0;
     margin-bottom: 0.1rem;
     color:#fff;
+}
+h2, p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
 }
 .curtis{
     color:$light-blue;
